@@ -83,7 +83,7 @@ author:
   name             : "Jian Xiong"
   avatar           : "profile.png"
   bio              : "Doctor, Assistant Professor"
-  location         : "No. 66, Xinmofan Road, Nanjing City, Jiangsu Province, China"
+  location         : "Nanjing City, Jiangsu Province, China"
   employer         :
   pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   googlescholar    : "https://scholar.google.com/citations?user=_fPj2TAAAAAJ&hl=zh-CN"
@@ -109,7 +109,7 @@ author:
   stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
   tumblr           :
-  twitter          : "replacethistwitterhandle"
+  twitter          : #"replacethistwitterhandle"
   vine             :
   weibo            :
   xing             :
