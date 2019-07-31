@@ -91,9 +91,7 @@
       {% if author.soundcloud %}
         <li><a href="https://soundcloud.com/{{ author.soundcloud }}"><i class="fab fa-fw fa-soundcloud" aria-hidden="true"></i> Soundcloud</a></li>
       {% endif %}
-      {% if author.scholat %}
-        <li><a href="http://www.scholat.com/{{ author.scholat }}"><i class="fab fa-fw fa-scholat" aria-hidden="true"></i> Scholat</a></li>
-      {% endif %}
+
       {% if author.flickr %}
         <li><a href="https://www.flickr.com/{{ author.flickr }}"><i class="fab fa-fw fa-flickr" aria-hidden="true"></i> Flickr</a></li>
       {% endif %}
@@ -117,6 +115,9 @@
       {% endif %}
       {% if author.wikipedia %}
         <li><a href="https://en.wikipedia.org/wiki/User:{{ author.wikipedia }}"><i class="fab fa-fw fa-wikipedia-w" aria-hidden="true"></i> Wikipedia</a></li>
+{% endif %}
+{% if author.scholat %}
+<li><a href="http://www.scholat.com/{{ author.scholat }}"><i class="fab fa-fw fa-scholat" aria-hidden="true"></i> Scholat (In Chinese)</a></li>
 {% endif %}
     </ul>
   </div>
